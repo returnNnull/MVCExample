@@ -1,0 +1,16 @@
+﻿<Window x:Class="MVCExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVCExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="324,335,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="num1TextBox" HorizontalAlignment="Left" Margin="324,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="num2TextBox" HorizontalAlignment="Left" Margin="324,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="10" Margin="337,289,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
